@@ -1,3 +1,5 @@
+
+
 sum=5+3
 print(sum)
 num1=2
@@ -49,8 +51,8 @@ print(x>y and not x<y)#true
 
 
 #4. Assignment operators
-a=10
-b=20
+a=30
+b=50
 
 sum=a+b
 print("sum of a and b is:", sum)
@@ -84,3 +86,8 @@ print(a|b)
 print(a^b)
 print(a<<b)
 print(a>>b)
+
+temp=10
+temp+273
+kelvin=temp+273
+print("temprature in kelvin is:",kelvin)
