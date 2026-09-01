@@ -143,11 +143,11 @@ print(type(marks))
 print(type(is_student))
 
 #16. Convert the string "100" to an integer and add 25.
-number= int("23")
+number= int("100")
 print(number+25)
 
 #17. Convert the integer 250 to a string and display its type.
-num= int("250")
+num= str(250)
 print(type(num))
 
 #18. Create variables for employee name, salary, and department and print them.
@@ -159,7 +159,7 @@ print(employee_name, salary, department)
 #19. Take marks in three subjects and print the total and average.
 sub1_marks= float(input("maths:"))
 sub2_marks= float(input("science:"))
-sub3_marks= float(input("english:"))
+sub3_marks= float(input("social science:"))
 total=sub1_marks + sub2_marks + sub3_marks
 average= total / 3
 print(total)
@@ -167,7 +167,7 @@ print(average)
 
 #20. Create a program that takes item name, price, and quantity as input, converts numeric inputs correctly, and prints a simple bill.
 item_name= str(input("item_name:"))
-price= int(input("price:"))
+price= float(input("price:"))
 quantity= int(input("quantity:"))
 total= price*quantity
 print("item_name:" , item_name)
