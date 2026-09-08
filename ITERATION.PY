@@ -66,6 +66,44 @@ cars=["suzuki","BMW","Mercedeze Benz"]
 # * * *
 # * * * *
 # * * * * *
-for i in range(1,6):
-    print("* "* i)
+# for i in range(1,6):
+#     print("* "* i)
+
+
+# for i in range(5):
+#    if i==2:
+#     pass
+# print(i)
+age=16
+if age>=18:
+    pass
+
+def login():
+    pass  
+
+###while loop      
+###while loop      
+###while loop      
+###while loop      
+###while loop      
+###while loop
+
+# while condition:
+#     #code   
+
+# i=1
+# while i<=5:
+#     print(i)  
+#     i=i+1
    
+
+#    initialvalue of i=1   i=1   print 1
+    #  i=i+1               i=2   print 2
+
+
+i=2
+while i<=100:
+    if i==6:
+        continue
+    print(i)
+    i=i+2

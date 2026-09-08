@@ -57,4 +57,5 @@ elif marks>=0 and marks<40:
 else:
     print("Invalid marks!!")    
 
+name="sknjb"
    
