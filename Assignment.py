@@ -196,6 +196,8 @@ for s in range(6):
     
 for i in range(1,8):
     print("*",i)
+
+print("jghfddsfg")
     
     
 
