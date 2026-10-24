@@ -106,33 +106,27 @@
 # marks= int(input("marks:"))
 # print(name, "marks scored:", marks)
 
-
-# #9. Take the price and quantity of an item and calculate the total bill.
-# price= int(input("price:"))
-# quantity= int(input("quantity:"))
-# print(price * quantity)
-
-# #10. Take a decimal number as input and print its type before and after converting it with float().
+#ques 9
 # number= float(input("enter any number"))
 # print(type(number))
 
-# #11. Create a list of five subjects and print the list.
+  #11. Create a list of five subjects and print the list.
 # groceries= ["green chilli", "brinjal", "potato", "tomato"]
 # print(groceries)
 
-# #12. Create a tuple containing three coordinates and print it.
+ #12. Create a tuple containing three coordinates and print it.
 # score= (100, 200, 300)
 # print(score)
 
-# #13. Create a dictionary containing a student name and age, then print the name.
+#13. Create a dictionary containing a student name and age, then print the name.
 # student= {"name" : "riya" , "age" : 18}
 # print(student["name"])
 
-# #14. Create a set with repeated numbers and display the result.
+# # #14. Create a set with repeated numbers and display the result.
 # nums= {23,24,25,26}
 # print(nums)
 
-# #15. Use type() to display the types of a string, integer, float, and Boolean value.
+# # #15. Use type() to display the types of a string, integer, float, and Boolean value.
 # name= "ritika"
 # age= 15
 # marks= 93.4
@@ -142,21 +136,21 @@
 # print(type(marks))
 # print(type(is_student))
 
-# #16. Convert the string "100" to an integer and add 25.
+# # #16. Convert the string "100" to an integer and add 25.
 # number= int("100")
 # print(number+25)
 
-# #17. Convert the integer 250 to a string and display its type.
+# # #17. Convert the integer 250 to a string and display its type.
 # num= str(250)
 # print(type(num))
 
-# #18. Create variables for employee name, salary, and department and print them.
+# # #18. Create variables for employee name, salary, and department and print them.
 # employee_name= "Raunak"
 # salary= 25,000
 # department= "data analyst"
 # print(employee_name, salary, department)
 
-# #19. Take marks in three subjects and print the total and average.
+# # #19. Take marks in three subjects and print the total and average.
 # sub1_marks= float(input("maths:"))
 # sub2_marks= float(input("science:"))
 # sub3_marks= float(input("social science:"))
@@ -165,34 +159,402 @@
 # print(total)
 # print(average)
 
-# #20. Create a program that takes item name, price, and quantity as input, converts numeric inputs correctly, and prints a simple bill.
-# item_name= str(input("item_name:"))
-# price= float(input("price:"))
-# quantity= int(input("quantity:"))
-# total= price*quantity
-# print("item_name:" , item_name)
-#print("total:" , total)
+# # #20. Create a program that takes item name, price, and quantity as input, converts numeric inputs correctly, and prints a simple bill.
+# # item_name= str(input("item_name:"))
+# # price= float(input("price:"))
+# # quantity= int(input("quantity:"))
+# # total= price*quantity
+# # print("item_name:" , item_name)
+# #print("total:" , total)
 
-for i in range(1,51):
-    print(i)
+# for i in range(1,51):
+#     print(i)
     
     
-name="sana"
-Students=["Ritika","Roshan","Aman","riya",name,"Ali"]
+# name="sana"
+# Students=["Ritika","Roshan","Aman","riya",name,"Ali"]
 
-print(len(Students))
-print(len(name))
+# print(len(Students))
+# print(len(name))
 
-for stud in range(len(Students)):
-    print("values=",Students[stud],"index=",stud)
+# for stud in range(len(Students)):
+#     print("values=",Students[stud],"index=",stud)
     
-for s in range(6):
-    print("*" *6)
+# for s in range(6):
+#     print("*" *6)
     
-for i in range(1,8):
-    print("*",i)
+# for i in range(1,8):
+#     print("*",i)
     
     
+    
+    # 1. Which operator returns the remainder of a division? 
+    # A. / B. // C. % D. ** ,ans=A.
+   
+    # 2. What is the result of 10 // 3?
+    # A. 3.33 B. 3 C. 1 D. 0 ,ans=B.
+   
+    # 3. Which operator checks equality of value? 
+    # A. = B. == C. is D. != ,ans=B.
 
-            
+    #   4. What does 'and' return if both sides are True? 
+    # A. False B. None C. True D. 0 ,ans=C.
+    # 
+    # 5. Which operator updates a variable by adding to it?
+    # A. =+ B. += C. + D. ++ ,ans=B.
              
+        # 6. Which operator performs a bitwise AND? 
+        # A. && B. & C. and D. | ,ans=B.
+        
+        # 7. Which operator checks whether two variables are the same object?
+        # A. == B. is C. in D. = ,ans=B.
+       
+        # 8. Which operator checks membership in a list?
+        # A. in B. is C. == D. has ,ans=A.   
+        
+        #9. Which is evaluated first in 10 + 2 * 3?
+        # A. 10 + 2 B. 2 * 3 C. Left to right always D. None,ans=B.
+        # 
+        # 10. Which keyword starts a conditional block?
+        # A. for B. if C. def D. while ,ans=B.
+        # 
+        # 11. What does elif mean? 
+        # A. else if B. an alias for else C. a loop keyword D. a function ,ans=A.
+        
+        #12. What runs if no condition in if-elif-else is True?
+        # A. Nothing B. The if block C. The else block D. An error ,ans=C.
+        # 
+        # 13. Which loop is best when the number of iterations is known? 
+        # A. while B. for C. if D. elif ,ans=B.
+        # 
+        # 14. What does range(5) start from?
+        # A. 1 B. 0 C. 5 D. -1 ,ans=B.
+        
+        #15. Which statement exits a loop immediately?
+        # A. continue B. break C. pass D. return ,ans=B.
+        # 
+    # 16. Which statement skips to the next iteration?
+#          
+#         A. break B. continue C. exit D. stop ,ans=B.
+       
+#       17. What does word[1:4] do on a string? 
+#          A. Returns characters at index 1 to 4 inclusive B. Returns characters at index 1, 2, 3 Returns the whole string D. Raises an error
+#         #Ans=B.
+    
+#     18. Which method removes leading and trailing spaces?
+#      A. trim() B. strip() C. clean() D. remove() ,ans=B.
+    
+#      19. Which keyword defines a function?
+#      A. func B. def C. function D. lambda ,ans=B.
+    
+#      20. What does a function return if it has no return statement?
+#     #A. 0 B. An error C. None D. An empty string C. ans=C.
+    
+# 1. Write a program to calculate the area and perimeter of a rectangle using arithmetic operators.
+#     length = float(input("Length: "))
+#     width =float(input("Width: ")) 
+#     print("Area:", length * width) 
+#     print("Perimeter:", 2 * (length + width))
+    
+# 2. Take two numbers as input and print whether the first is greater, smaller, or equal to the second.
+#     x = int(input("First number: ")) 
+#     y = int(input("Second number: ")) 
+#     if  a >=  b:   
+#         print("First is greater")
+#     elif a <= b:    
+#         print("First is smaller")
+#     else:   
+#         print("Both are equal")
+        
+# 3. Write a program that checks if a number is both even and greater than 10 using logical operators.
+#     num = int(input("Number: ")) 
+#     if num % 2 == 0 and num > 10:   
+#         print("Even and greater than 10")
+#     else:  
+#         print("Condition not met")
+        
+#  4. Write a program using a shorthand assignment operator to add 10 to a running total three times.
+#     total = 0
+#     total += 10 
+#     total += 10 
+#     total += 10 
+#     print(total)
+    
+#     #5. Write a program that checks membership of a number in a list of allowed roll numbers.
+#     allowed = [101, 102, 103]
+#     roll = int(input("Roll number: "))
+#     print(roll in allowed)
+    
+#  6. Write a program to check if a person is eligible to vote (age 18 or above) using an if-else statement.
+#     age = int(input("Age: "))
+#     if age >= 18:   
+#         print("Can  vote")
+#     else:   
+#         print("Can Not eligible")
+        
+#   7. Write a program that grades a student's marks using if-elif-else (A, B, C, Fail).
+#     marks = int(input("Marks: ")) 
+#     if marks >= 95:   
+#          print("X")
+#     elif marks >= 80:   
+#          print("Y")
+#     elif marks >= 30:    
+#          print("Z")
+#     else:    
+#              print("Fail")
+             
+# 8. Write a program with a nested if that checks both age and whether a person has a valid ID.
+# age = int(input("Age: ")) 
+# has_id = True
+# if age >= 18:   
+#       if has_id:       
+#           print("Entry is allowed")   
+#       else:    
+#           print("ID is required") 
+# else:    
+#           print("then Not allowed")
+          
+# #9. Write a program using the short-hand if to print "Even" or "Odd" for a number.
+# numbers = int(input("Number: ")) 
+# value = "Even" if num % 2 == 0 else "Odd" 
+# print(value)
+
+# 10. Write a program that prints the first 10 natural numbers using a for loop.
+# for i in range(1, 11):   
+#     print(i)
+    
+# 11. Write a program that prints the multiplication table of a number using range().
+# numbers = int(input("Number: "))
+# for i in range(1, 11):    
+#     print(num, "y", i, "=", num * i)
+    
+# 12. Write a program that adds numbers entered by the user until they enter 0, using a while loop.
+# total = 0
+# while True:   
+#     num = int(input("Enter number (0 to stop): "))    
+#     if num == 0:        
+#       break    
+# total += num 
+# print("Total:", total)
+
+# #13. Write a program that prints numbers from 1 to 20 but stops as soon as it reaches 15, using break.
+# for i in range(1, 30):   
+#     if i == 15:       
+#         break   
+#     print(i)
+    
+# #14. Write a program that prints numbers from 1 to 10, skipping multiples of 3, using continue.
+# for i in range(1, 11):    
+#     if i % 3 == 0:      
+#         continue   
+#     print(i) 
+    
+# #15. Write a program with nested loops that prints a simple pattern of stars (3 rows).
+
+#     for i in range(3):   
+#         for j in range(3):       
+#             print("*", end=" ")    
+#             print()
+            
+# #16. Write a program that takes a full name and prints only the first three characters using slicing.
+
+
+# name = input("Full name: ") 
+# print(name[0:3])
+
+# #17. Write a program that counts how many times the letter 'a' appears in a given word.
+# Character = input("Word: ") 
+# print(Character.count("a"))
+
+# #18. Write a program that takes a sentence and prints it in uppercase and lowercase using string methods.
+# sentence = input("Sentence: ")
+# print(sentence.upper())
+# print(sentence.lower())
+
+
+# #19. Write a function that takes two numbers and returns their product.
+# def multiply(x, y): 
+#     return x * y
+# print(multiply(4, 5))
+
+# #20. Write a function with a default parameter that greets a user, and a lambda that doubles a number.
+# def greet(name="Teacher"):
+#     print("Hello", name) 
+#     greet() 
+#     double = lambda a: a * 2
+#     print(double(8))
+    
+    #List Assignment 
+    # Part A - 20 Multiple Choice Questions 
+    # 1. Which brackets are used to create a list?
+    # A. ()    B. []    C. {}    D. <> =B.[]
+    # 
+    # 2. What is the index of the first item in a Python list?
+    # A. 0    B. 1    C. -1    D. 2 =A.0
+    # 
+    # 3. Which property means a list can be changed after creation? 
+    # A. Ordered    B. Mutable    C. Unique    D. Immutable=D. Immutable
+    
+    #4. Which method adds one item at the end? 
+    # A. add()    B. append()    C. insert()    D. extend() =B.append()
+    # 
+    # 5. Which method adds several items from an iterable? 
+    # A. append()    B. insert()    C. extend()    D. add() =C. extend
+    # 
+    # 6. What does remove(20) do? 
+    # A. Removes index 20   
+    # B. Removes first value 20   
+    # C. Removes last value   
+    # D. Clears the list 
+    #=B. remoyes the first value 20
+    # 
+    # 7. What does pop() remove by default?
+    # A. First item    B. Middle item    C. Last item    D. All items=C. Last term
+    
+    #8. Which method removes all items? 
+    # A. delete()    B. clear()    C. empty()    D. remove() B. Clear
+    # 
+    # 9. What does index('A') return?
+    # A. Number of A values    B. First index of A    C. Last index of A    D. True/False 
+    # =B. First index of A
+    # 
+    # 10. Which method counts occurrences? 
+    # A. count()    B. index()    C. total()    D. length() =A. count()
+    # 
+    # 11. Which method sorts a list in place?
+    # A. sorted()    B. sort()    C. order()    D. arrange() =B. sort()
+    # 
+    # 12. Which function returns a new sorted list?
+    # A. sort()    B. sorted()    C. order()    D. arrange() = B. sorted()
+    # 
+    # 13. What does reverse() do?
+    # A. Sorts ascending    B. Sorts descending    C. Reverses order    D. Deletes values 
+    #=C. Reverse order
+    #
+    # 14. Which method creates a shallow copy?
+    #A. duplicate()    B. clone()    C. copy()    D. new()=C. copy()
+    # 
+    # 15. What is the result of [10, 20, 30][1]?
+    # A. 10    B. 20    C. 30    D. Error =B. 20
+    # 
+    # 16. What does [1,2,3][0:2] return? 
+    # A. [1,2]    B. [1,2,3]    C. [2,3]    D. [1,3] =A. [1,2]
+    # 
+    # 17. Which operator checks membership?
+    # A. is    B. in    C. has    D. contains= b. in
+    
+    #18. What is the result of len([5, 6, 7])?
+    # A. 2    B. 3    C. 4    D. 7 =B. 3
+    
+    #19. What does b = a do when a is a list?
+    # A. Always makes a separate copy    
+    # B. Creates another reference to the same list   
+    # C. Converts it to tuple   
+    # D. Sorts it 
+    #=B. Creates another reference to the same list
+    
+    # 20. Which statement is correct?
+    # A. Lists cannot contain duplicates  
+    # B. Lists are immutable   
+    # C. Lists can contain mixed data types    
+    # D. Lists use only strings
+    #= C. Lists can contain mixed data types
+    
+ #Part C - 20 Coding Practice Questions
+    
+# 1. Create a list of five student names and print it.
+students_name=["ritika","roshni","ananya","ruhi","rahul"]
+print(students_name)
+
+#2. Create a list of five numbers and print the first and last item.
+numbers=[1,2,3,4,5]
+print(numbers[0],numbers[4])
+
+#3. Create a list of fruits and print the second item.
+fruits=["banana","apple","grapes","orange"]
+print(fruits[1])
+
+#4. Create a list of numbers and print the last three items using slicing.
+items=["books","pen","pencil","copy","tank"]
+print(items[2:5])
+
+#5. Change the third item of a list to a new value.
+items1= ["laptop","box","flower pot","paper weight"]
+items1[2]="pen stand"
+print(items1)
+
+#6. Add a new item to a list using append().
+fruits=["apple","banana","grapes"]
+fruits.append("orange")
+print(fruits)
+
+#7. Insert a value at index 2 using insert().
+games=["football","chess","badminton"]
+games.insert(2,"cricket")
+print(games)
+
+#8. Add three values to a list using extend().
+names=["ritika","rahul","ritik"]
+names.extend(["riya","shivansh","ronak"])
+print(names)
+
+#9. Remove a specific value using remove().
+names=["ritika","rahul","ritik"]
+names.remove("ritika")
+print(names)
+
+
+#10. Remove the last item using pop().
+names=["ritika","rahul","ritik"]
+names.pop(2)
+print(names)
+
+#11. Remove the item at index 1 using pop(1) and print the removed value.
+names=["ritika","rahul","ritik"]
+names.pop(1)
+print(names)
+
+#12. Empty a list using clear().
+names=["ritika","rahul","ritik"]
+names.clear()
+print(names)
+
+#13. Find the index of a given value.
+names=["ritika","rahul","ritik"]
+print(names.index("ritik"))
+
+#14. Count how many times a value occurs.
+names1=["ritika","rahul","ritik","ruhi","ritik"]
+print(names1.count("ritik"))
+
+#15. Sort a list in ascending and descending order.
+numbers2=[1,4,6,7,8]
+numbers2.sort
+print(numbers2)
+numbers2.sort(reverse=True)
+print(numbers2)
+
+#16. Reverse a list.
+numbers4=[1,2,3,4,5,6,7,8]
+numbers4.reverse()
+print(numbers4)
+
+#17. Create a copy of a list and modify only the copy.
+a=["teddy bear","car"]
+b = a
+b.append("toy house")
+
+c = a.copy()
+c.append("toy gun")
+
+print(a)
+print(b)
+print(c)
+
+#18. Check whether a value exists in a list using in.
+listi=["footmat","bouquet","flower","headphones"]
+print("flower" in listi)
+
+
+#19. Create a nested list representing marks of two students and access one mark.
+#20. Create a list of numbers and display its length, maximum, minimum and sum.
