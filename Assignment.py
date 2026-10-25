@@ -560,3 +560,201 @@ print("flower" in listi)
 #20. Create a list of numbers and display its length, maximum, minimum and sum.
 
 
+#data types
+
+#mcqs
+#1. Which type represents 3+4j? 
+# A. int B. float C. complex D. str (ans=c. complex)
+
+# 2. What does divmod(17, 5) return?
+# A. (3, 2) B. (2, 3) C. 3.4 D. 2(ans=a. (3,2))
+
+# 3. Which module provides sqrt() and factorial()?
+# A. random B. math C. sys D. os (ans=b. maths)
+
+# 4. What does int(3.9) return? 
+# A. 4 B. 3.9 C. Error D. (ans=a. 4)
+
+#5. Which is a valid one-item tuple?
+# A. (5) B. [5] C. (5,) D. {5} (ans=a. (5))
+
+# 6. What happens when you run t[0] = 99 on a tuple?
+# A. Value changes B. TypeError C. New tuple is made D. Nothing (ans= b. typeError)
+
+# 7. For t = (1, 2, 2, 3), what does t.count(2) return? 
+#A. 1 B. 3 C. 0 D. 2 (ans= d. 2)
+
+# 8. What is a, b = (10, 20) called?
+# A. Unpacking B. Packing C. Slicing D. Casting (ans = A. unpacking)
+
+# 9. How do you create an empty set? 
+# A. {} B. set() C. [] D. () (ans=B. set())
+
+# 10. What is {1, 2, 3} & {2, 3, 4}? 
+# A. {2, 3} B. {1, 2, 3, 4} C. {1, 4} D. {1} (ans= {2,3})
+
+
+#11. Which method adds one item to a set? 
+# A. append() B. insert() C. add() D. push() (ans= add())
+
+# 12. Which is the immutable version of a set?
+# A. tuple B. list C. dict D. frozenset(ans= d. frozenset)
+
+# 13. Which method returns a default value for a missing key?
+# A. pop() B. get() C. keys() D. clear() (ans=b. get)
+
+# 14. Which method returns key-value pairs? 
+# A. keys() B. values() C. items() D. get() (ans = c. items)
+
+# 15. Which can be a dictionary key?
+#A. tuple B. list C. set D. dict  (ans= d. dict)
+
+# A. Deletes the dictionary B. Sorts the keys C. Replaces the whole dictionary D. Adds or updates key-value pairs # 
+# 16. What does d.update({"b": 2}) do?
+# (ans=d.)
+
+# 17. Which block always executes?
+# A. try B. except C. else D. finally (ans= d. finally )
+
+# 18. Which keyword raises an exception manually?
+# A. throw B. raise C. error D. catch(ans= b. raise)
+
+#19. What error does int("abc") raise?
+# A. ValueError B. TypeError C. NameError D. (ans= a. value error )
+
+#20. When does the else block of try run? 
+# A. When an exception occurs B. When no exception occurs C. Always D. Never (ans= a.)
+
+#code pratice questions 
+#1. Take a number and print its square root, ceiling, and floor using the math module.
+import math
+num=float(input("enter any number:"))
+print(math.sqrt(num))
+print(math.ceil(num))
+print(math.floor(num))
+
+#W 2. Take two integers and print the quotient and remainder using divmod().
+x=int(input("first number"))
+y=int(input("second number :"))
+q,r=divmod(x,y)
+print("Quoteint:",q)
+print("Remainder:",r)
+
+
+# 3. Take a decimal number and print it rounded to 2 decimal places.
+m = float(input("Number: "))
+print(round(m, 2))
+
+# 4. Convert the number 25 to binary, octal, and hexadecimal.
+t = 25 
+print(bin(t))
+print(oct(t)) 
+print(hex(t))
+
+#5. Create a tuple of 5 numbers. Print the first item, the last item, and the middle three items
+nums1 = (10, 20, 30, 40, 50) 
+print(nums1[0]) 
+print(nums1[-1]) 
+print(nums1[1:4])
+
+#6. Unpack a tuple (name, age, city) into variables and print them.
+people = ("ritika", 15, "gorakhpur")
+name, age, city = people
+print(name, age, city)
+
+#7. Count how many times a value appears in a tuple and find the position of another value.
+t = (4, 7, 4,3, 8, 7)
+print(t.count(3))
+print(t.index(7))
+
+#8. Swap two variables using tuple unpacking. 
+a = 2
+b = 15
+a, b = b,a
+print(a, b)
+
+# 9. Remove duplicates from a list of numbers using a set.
+data  = [1,1,3,4,4,2,2]
+unique= list(set(data))
+print(unique)
+
+# 10. Given two sets of student names, print the common names, all names, and names only in the first set. 
+r = {"ritika", "Rahul", "Nena"} 
+t = {"Rahul", "Nena", "simran"}
+print(a & b)
+print(a | b) 
+print(a - b)
+# 11. Take a sentence and print the number of unique words.
+sentence = input("Sentence: ") 
+words = sentence.lower().split()
+print(len(set(words)))
+
+# 12. Add and remove items in a set and print the set after each change. 
+n={4,5,6,7,1}
+n.add(10)
+print(n)
+n.remove(4)
+print(n)
+
+#13. Create a dictionary with name, age, and course. Print each key and value using a loop. 
+Employee={"name":"ritika","age":15,"course":"python"}
+for key, value in Employee.items():
+    print(key, ":",value)
+
+# 14. Count how many times each character appears in a word using a dictionary.
+Word= input("Word: ")
+freq={}
+for n in Word:
+    freq[n]=freq.get(n,0)+1
+print(freq)    
+    
+# 15. Store a product name and price in a dictionary, update the price, and print it. 
+product = {"name": "dairy", "price": 35}
+product["price"] = 50
+print(product)
+
+# 16. Create a nested dictionary of two students with marks and print the name of the topper.
+students = {    "s1": {"name": "ritika", "marks": 94},    
+            "s2": {"name": "rahul", "marks": 89} 
+            }
+topper = "" 
+best = 3 
+for info in students.values():   
+    if info["marks"] > best:        
+        best = info["marks"]        
+topper = info["name"] 
+print(topper, best)
+# 17. Divide two numbers entered by the user. Handle ZeroDivisionError and ValueError.
+try:    
+    c= float(input("A: "))    
+    d = float(input("B: "))    
+    print(a / b) 
+except ZeroDivisionError:    
+    print("Cannot divide by zero") 
+except ValueError:    
+    print("Enter valid numbers")
+# 18. Keep asking for an integer until the user enters a valid one.
+while True:   
+    try:       
+        n = int(input("Enter any integer: "))        
+    except ValueError:       
+     print("Invalid, try again") 
+     print("You entered", n)
+
+# 19. Raise a ValueError if the entered age is negative, and handle it with try-except. 
+try:    
+    age = int(input("Age: "))    
+    if age < 0:        
+        raise ValueError("Age can't be negative")   
+    print("Age:", age)
+except ValueError as n:  
+    print("Error:", n)
+# 20. Open a file that may not exist, handle FileNotFoundError, and print a message in finally. 
+try:    
+    i = open("missing.txt")    
+    print(i.read()) 
+except FileNotFoundError:   
+    print("File not found") 
+finally:    
+    print("Done")
+
