@@ -167,26 +167,12 @@
 # # print("item_name:" , item_name)
 # #print("total:" , total)
 
-<<<<<<< HEAD
 # for i in range(1,51):
 #     print(i)
     
     
 # name="sana"
 # Students=["Ritika","Roshan","Aman","riya",name,"Ali"]
-=======
-# <<<<<<< HEAD
-# 21 START..
-
-# =======
-for i in range(1,51):
-    print(i)
-    
-    
-name="sana"
-Students=["Ritika","Roshan","Aman","riya",name,"Ali"]
-# >>>>>>> 1683c8999ee6d14fe68fb6c77d1802bab8994209
->>>>>>> 30b9167c8859616736e9a77483bdf6cd06911f16
 
 # print(len(Students))
 # print(len(name))
@@ -197,15 +183,14 @@ Students=["Ritika","Roshan","Aman","riya",name,"Ali"]
 # for s in range(6):
 #     print("*" *6)
     
-<<<<<<< HEAD
+#<<<<<< HEAD
 # for i in range(1,8):
 #     print("*",i)
-=======
-for i in range(1,8):
-    print("*",i)
+#for i in range(1,8):
+#     print("*",i)
 
-print("jghfddsfg")
->>>>>>> 30b9167c8859616736e9a77483bdf6cd06911f16
+# print("jghfddsfg")
+# >>>>>>> 30b9167c8859616736e9a77483bdf6cd06911f16
     
     
     
